@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <title> Ultimate Quiz 1.0</title>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+
+            <div class="row justify-content-md-center">
+                <div class="col-{breakpoint}-auto">
+                    <div id="game-over">
+            <h2>Game Over</h2>
+            <label for="fname">Enter Initials:</label>
+            <input type="text" class="input-group-text" id="initials" name="fname"><br>
+            <input onclick="gameOverFunc()" type="submit" value="Submit" class="btn btn-primary " id="submit">
+            <div id = "hsContainer">
+                <h3>High Scores</h3>
+            <ul id="highScores">
+               
+            </ul>
+            <button onclick="clearScores()" type="button" class="btn btn-primary mb-2 mt-3" id="clear">Clear</button><br>
+            <button onclick="goBack()" type="button" value="Submit" class="btn btn-primary  mb-2" id="submit">Go back</button>
+            </div>
+                    </div>
+                    <div id="question">Click to Start The Quiz</div>
+                    <button type="button" class="btn btn-primary mb-2 mt-3" id="option1">Start</button><br>
+                    <button type="button" class="btn btn-primary mb-2" id="option2">High Scores</button><br>
+                    <button type="button" class="btn btn-primary mb-2" id="option3"></button><br>
+                    <button type="button" class="btn btn-primary mb-2" id="option4"></button><br>
+                
+                    <div class="col-{breakpoint}-auto" id="timer"></div>
+                    <div class="col-{breakpoint}-auto" id='correctIncorrect'></div>
+
+            </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

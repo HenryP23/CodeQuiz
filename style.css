@@ -1,0 +1,59 @@
+
+.btn{
+    padding: 7px 50px 7px 50px !important;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#timer{
+    font: bold ;
+    font-size: large;
+    text-align: center !important;
+    color: #007bff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#game-over{
+    font: bold ;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#highScores{
+    text-align: left;
+}
+h3{
+    text-align: center;
+    border-bottom: #007bff;
+    border-bottom-style: dashed;
+    font-size: 30px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+
+
+h2{
+    font-size: 50px;
+    color: red;
+    font-family: 'Permanent Marker', cursive;
+}
+
+.btn
+{
+    width: 100%;
+    table-layout: fixed;
+    border-collapse: collapse;
+}
+
+#question{
+    
+    font-size: 20px;
+}
+
+           
