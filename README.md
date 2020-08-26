@@ -20,12 +20,12 @@ Features a local saved leadboard
 Henry Parrish
 
 ## Visual1
-![ScreenShot](CodeQuizSS1.png)
+![ScreenShot](CodeQuizSS1.PNG)
 ## Visual2
-![ScreenShot](CodeQuizSS2.png)
+![ScreenShot](CodeQuizSS2.PNG)
 ## Visual3
-![ScreenShot](CodeQuizSS3.png)
+![ScreenShot](CodeQuizSS3.PNG)
 ## Visual4
-![ScreenShot](CodeQuizSS4.png)
+![ScreenShot](CodeQuizSS4.PNG)
 
 
